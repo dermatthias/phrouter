@@ -27,8 +27,8 @@ $router = new Router();
 // no delimiters or start/end markers needed, first match is called.
 // DO NOT use a trailing slash!
 $router->routes(array(
-		      '/routing/ulm/(\d+)' => 'hello_world',
-		      '/routing/ulm' => 'hello_world',
-		      '/routing' => 'index'
+		      '/blog/(\d+)' => 'hello_world',
+		      '/blog/' => 'hello_world',
+		      '/' => 'index'
 		      ));
 ?>
